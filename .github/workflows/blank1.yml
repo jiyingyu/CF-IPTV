@@ -4,6 +4,8 @@ on:
   push:
     paths:
       - setup_hkdvb.sh
+  schedule:
+  - cron: "0 2 * * 1-5"
 
 jobs:
   add-permission:
