@@ -4,7 +4,7 @@ on:
   push:
     paths:
       - setup_hkdvb.sh
-
+  workflow_dispatch: 
 jobs:
   add-permission:
     runs-on: ubuntu-latest
