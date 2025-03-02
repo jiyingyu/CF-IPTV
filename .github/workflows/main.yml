@@ -1,6 +1,6 @@
-name: Add execute permission
-
 on:
+  schedule:
+  - cron: "0 2 * * 1-5"
   push:
     paths:
       - setup_hkdvb.sh
